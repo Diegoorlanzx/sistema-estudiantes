@@ -9,8 +9,8 @@ public class Conexion {
         Connection conexion = null;
         var baseDatos = "estudiantes_db";
         var url = "jdbc:mysql://localhost:3306/" + baseDatos;
-         var usuario = "root";
-         var password = "Corchea182";
+        var usuario = "root"; // ← Reemplaza con System.getenv("DB_USER") para producción
+        var password = "tu_clave"; //
          try{
 
 
